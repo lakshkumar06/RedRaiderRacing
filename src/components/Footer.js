@@ -17,7 +17,7 @@ const Footer = () => {
       ></hr>
       <div className='sm:flex justify-between text-[white] py-[40px]'>
         <div className='pb-[40px]'>
-          <img src='./images/logo-white.jpg'className='h-[60px] sm:h-[70px] lg:h-[80px]'></img>
+          <img src='./images/logo-white.jpg' className='h-[60px] sm:h-[70px] lg:h-[80px]' alt="Logo"></img>
         </div>
         <div className='flex justify-between sm:justify gap-[3vw] text-[16px]  lg:text-[20px] '>
         <div className=''>
