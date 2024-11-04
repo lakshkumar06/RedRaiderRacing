@@ -1,23 +1,39 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Contact from './pages/Contact';
+import Events from './pages/Events';
+import Team from './pages/Team';
+import Sponsors from './pages/Sponsors';
+import History from './pages/History';
 
+import { useEffect, useRef } from 'react';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HeroHomepage from './components/HeroHomepage';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className=''>Hello</h1>
+      <Header />
+      <HeroHomepage/>
+      {/* <BrowserRouter>
+      <Routes>
+        <Route path="/" element={
+          <>
+     
+
+
+    
+          </>
+        } />
+        <Route path="/Team" element={<Team />} /> 
+        <Route path="/Events" element={<Events />} /> 
+        <Route path="/History" element={<History />} /> 
+        <Route path="/Sponsors" element={<Sponsors />} /> 
+        <Route path="/Contact" element={<Contact />} /> 
+
+
+      </Routes>
+    </BrowserRouter> */}
     </div>
   );
 }
