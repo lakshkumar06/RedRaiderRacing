@@ -5,35 +5,38 @@ import Events from './pages/Events';
 import Team from './pages/Team';
 import Sponsors from './pages/Sponsors';
 import History from './pages/History';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
-import { useEffect, useRef } from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HeroHomepage from './components/HeroHomepage';
+import ImageContainerHomepage from './components/ImageContainerHomepage';
+import WhoAreWeHomepage from './components/WhoAreWeHomepage';
+import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <h1 className=''>Hello</h1>
-      <Header />
-      <HeroHomepage/>
-      {/* <BrowserRouter>
+
+      <Router>
+ 
+
       <Routes>
-        <Route path="/" element={
+      <Route path="/" element={
           <>
-     
+               <Header />
+      <HeroHomepage/>
+      <ImageContainerHomepage/>
+      <WhoAreWeHomepage/>
+      <Footer/>
 
-
-    
           </>
         } />
-        <Route path="/Team" element={<Team />} /> 
-        <Route path="/Events" element={<Events />} /> 
-        <Route path="/History" element={<History />} /> 
-        <Route path="/Sponsors" element={<Sponsors />} /> 
-        <Route path="/Contact" element={<Contact />} /> 
-
-
+        <Route path="/Team" element={<Team />} />
+        <Route path="/Events" element={<Events />} />
+        <Route path="/History" element={<History />} />
+        <Route path="/Sponsors" element={<Sponsors />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter> */}
+    </Router>
+    
     </div>
   );
 }
