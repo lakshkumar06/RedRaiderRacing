@@ -11,7 +11,7 @@ const HeroHistory = () => {
       <div className='relative w-screen overflow-x-hidden px-[5vw] md:px-[10vw] py-[35vh] sm:py-[30vh]'>
         <div className='HeroText text-center w-full'>
           <h1 className='text-[white]  pb-[0.2em] '>OUR <span className='text-primary'>HISTORY</span> </h1>
-          <a className='btn-solid' href='#'>Join</a>
+          <a className='btn-solid' href='/'>Join</a>
         </div>
       </div>
     </div>    
