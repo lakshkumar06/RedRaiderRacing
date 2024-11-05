@@ -7,11 +7,15 @@ body{
   width: 100%;
   overflow-x: hidden;
 }
+html{
+  overflow-x: hidden;
+
+}
 h1{
-  @apply font-sofia leading-[1em] font-black text-[60px] sm:text-[100px] md:text-[120px] lg:text-[135px];
+  @apply font-sofia leading-[1em] font-black text-[60px] sm:text-[100px] md:text-[108px] lg:text-[120px] xl:text-[135px];
 }
 h2{
-  @apply text-left text-[24px] sm:text-[36px] lg:text-[48px] text-[white] font-sofia font-black pb-[1em];
+  @apply text-left text-[24px] sm:text-[36px] lg:text-[48px] text-[white] font-sofia font-black pb-[1em] uppercase;
 }
 p{
   @apply text-[16px]  lg:text-[20px] text-left text-white;
@@ -173,4 +177,59 @@ background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0.85) 20.29%, rgba(0
 }
 .carsdata p{
   @apply text-[12px] sm:text-[14px] md:text-[18px] lg:text-[20px];
+}
+.contactForm input, textarea{
+  @apply bg-black border-[white] border-[1.5px];
+}
+
+
+/* FAQS */
+
+
+.contentcontainer {
+  @apply px-[5vw] py-[1.5em] mt-[30px] w-full;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 20px;
+  
+}
+
+.question {
+  @apply  text-[18px] sm:text-[20px] md:text-[24px];
+  font-weight: 600;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question::after {
+  content: "\002B";
+  font-size: 3rem;
+  font-weight: 300;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.answer {
+  @apply text-left text-[14px] sm:text-[16px] md:text-[20px];
+  line-height: 1.5rem;
+  font-weight: 300;
+  margin-top: 20px;
+
+}
+
+.question.active + .answercont {
+  max-height: 1000px; /* Large enough value to accommodate the answer content */
 }

@@ -1,0 +1,22 @@
+{
+    "Contact": {
+      "faqs": [
+        {
+          "question": "What is your return policy?",
+          "answer": "You can return any item within 30 days of purchase for a full refund."
+        },
+        {
+          "question": "How can I track my order?",
+          "answer": "Once your order has shipped, you will receive an email with a tracking number."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept credit cards, PayPal, and Apple Pay."
+        },
+        {
+          "question": "How can I contact customer support?",
+          "answer": "You can reach our customer support team at support@example.com or call us at (123) 456-7890."
+        }
+      ]
+    }
+  }
