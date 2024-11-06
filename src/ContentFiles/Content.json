@@ -1,4 +1,113 @@
 {
+    "Team": {
+        "TeamMembers": {
+            "President": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Chief Engineer": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Vice President": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Drive Train": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                {
+                    "name": "John Doe",
+                    "role": "Lead Engineer",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Electrical": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                {
+                    "name": "John Doe",
+                    "role": "Lead Engineer",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Frame, Body, and Aero": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                {
+                    "name": "John Doe",
+                    "role": "Lead Engineer",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ],
+            "Vehicle Dynamics": [
+                {
+                    "name": "John Doe",
+                    "role": "Lead",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                },
+                {
+                    "name": "John Doe",
+                    "role": "Lead Engineer",
+                    "linkedin": "https://www.linkedin.com/in/johndoe",
+                    "email": "johndoe@example.com",
+                    "image": "https://example.com/images/johndoe.jpg"
+                }
+            ]
+        }
+    },
     "Contact": {
       "faqs": [
         {
